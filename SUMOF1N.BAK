@@ -1,0 +1,19 @@
+
+// sum of 1st number
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int a,b,sum;
+	clrscr();
+	printf("entetr 1st value ");
+	scanf("%d",&b);
+	for(a=0;a<b;a++)
+	{
+		sum=a+b;
+
+	}
+	printf("%d",sum);
+	getch();
+}
+printf(" NIRALI ");

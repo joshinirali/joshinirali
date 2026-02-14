@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int a,b;
+	long fact=1;
+	clrscr();
+	printf("enter value");
+	scanf("%d",&a);
+	for(b=1;b<a;b++)
+	{
+		fact=fact*b;
+	}
+	printf("\n factorial total %d",fact);
+	getch();
+}

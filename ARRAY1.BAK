@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+		int a[4],w;
+		clrscr();
+		for(w=0;w<3;w++)
+		{
+			scanf("%d \n ",&a[w]);
+		}
+		for(w=0;w<3;w++)
+		{
+			printf("a[%d]=%d\t",w,a[w]);
+		}
+		getch();
+
+}

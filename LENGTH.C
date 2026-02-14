@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	char a[6]="hello";
+	char b[10]="BCA";
+	int l;
+	clrscr();
+	l=strlen(a);
+	printf("%s",a);
+	printf("\n length of a=%d",l);
+	getch();
+
+
+}
