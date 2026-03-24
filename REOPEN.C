@@ -1,0 +1,12 @@
+#include<stdio.h>
+void main()
+{
+	FILE *fp;
+	clrscr();
+	fp=fopen("reopen.txt","w");
+	printf("hello data");
+	fclose(fp);
+	getch();
+
+
+}

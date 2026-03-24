@@ -6,7 +6,8 @@ echo $num - $dec.'<br>';
 echo $num * $dec.'<br>';
 echo $num / $dec.'<br>';
 echo $num % $dec.'<br>';
-if($num==$dec){
+if($num==$dec)
+{	
 	echo 'yes';
 }else
 {

@@ -1,17 +1,23 @@
 <html>
-<body>
-  <form action ="http://localhost:81/nirali2/gett.php" method="get">
-  <label for="full name">full name: </label><br>
-  <input type="text" name="full name" ><br>
-  
-  <label for="last name">last name: </label><br>
-  <input type="text" id="last name" name="last name" ><br>
+<body> 
+<center>
+
+  <form action="http://localhost:81/niralisem2/formget.php" method="GET">
+   <label for="fullname">fullname: </label><br>
+  <input type="text" name="fullname" ><br><br> 
+
+   email<input type="email" name="email"> <br>
+
+   <label for="lastname">lastname: </label><br>
+  <input type="text" id="lastname" name="lastname" ><br>
+ 
+ 
   male <input type="radio"name="gender" value="male"><br>
   female <input type="radio"name="gender" value="female"><br>
   <input type="submit"name="submit" value="submit"><br>
  
-  
- </form>
 
+ </form>
+</center>
 </body>
 </html>

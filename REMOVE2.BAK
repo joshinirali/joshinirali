@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int ret;
+	clrscr();
+	FILE *fp;
+	char filename[]="file.txt";
+	fp=fopen("filename","w");
+	fprintf(fp,"%s","i am an indian.");
+	fclose(fp);
+	ret=remove(filename);
+	if(ret==0)
+	{
+		printf("file deleted successfully...");
+	}
+	else
+	{
+		printf("error : unble to delet the file");
+	}
+	getch();
+
+}

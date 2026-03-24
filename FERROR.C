@@ -1,0 +1,26 @@
+
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	FILE *fp;
+	char c;
+	clrscr();
+	fp=fopen("bca3.txt","w");
+	c=fgetc(fp);
+	if(ferror(fp))
+	{
+		printf("ERROR IS READING FORM FILE");
+	}
+	clearerr(fp);
+	if(ferror(fp))
+	{
+		printf("ERROR IN READING FILE");
+	}
+	fclose(fp);
+	getch();
+
+
+}
+

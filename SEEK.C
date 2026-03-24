@@ -1,0 +1,17 @@
+#include<stdio.h>
+void main()
+{
+	FILE *fp;
+	clrscr();
+	fp=fopen("seektest.txt","w");
+	fseek(fp,0,SEEK_END);
+	fseek(fp,6,SEEK_SET);
+	fseek(fp,0,SEEK_CUR);
+	printf("%d",ftell(fp));
+	printf("%d",ftell(fp));
+	printf("%d",ftell(fp));
+
+	getch();
+
+
+}
